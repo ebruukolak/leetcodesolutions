@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LeetCodeSolutions
+namespace LeetCodeSolutions.Easy
 {
     /// <summary>
     /// Given a string s containing just the characters
@@ -100,7 +100,7 @@ namespace LeetCodeSolutions
                 }
                 else if (paranthesePairs.ContainsValue(ch))
                 {
-                    if(stack.Count == 0 || paranthesePairs[stack.Pop()]!=ch)
+                    if (stack.Count == 0 || paranthesePairs[stack.Pop()] != ch)
                         return false;
                 }
             }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeSolutions
+﻿namespace LeetCodeSolutions.Easy
 {
     public class TwoSums
     {
@@ -46,7 +40,7 @@ namespace LeetCodeSolutions
             return result;
         }
 
-        public int[] TwoSumWithDictionary(int[] nums, int target) 
+        public int[] TwoSumWithDictionary(int[] nums, int target)
         {
             var numsByDictionary = new Dictionary<int, int>();
 
@@ -63,7 +57,7 @@ namespace LeetCodeSolutions
             }
 
             return new int[2];
-        
+
         }
     }
 }
