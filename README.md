@@ -7,8 +7,6 @@ Welcome to my LeetCode solutions repository! This is where I document my journey
 - [Goals](#goals)
 - [Structure of the Repository](#structure-of-the-repository)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About
 This repository contains my solutions to various LeetCode problems. Each solution is written in C#, and I strive to provide clear explanations and optimizations where possible.
@@ -22,8 +20,17 @@ This repository contains my solutions to various LeetCode problems. Each solutio
 ## Structure of the Repository
 The repository is organized as follows:
 
-/leetcode-solutions/
-├── easy/               # Solutions to easy-level problems
-├── medium/             # Solutions to medium-level problems
-├── hard/               # Solutions to hard-level problems
-├── README.md           # This file
+/LeetCodeSolutions/
+├── Easy/ # Solutions to easy-level problems
+├── Medium/ # Solutions to medium-level problems
+├── Hard/ # Solutions to hard-level problems
+├── README.md # This file
+
+Each problem solution is stored in its respective difficulty folder, with the file name following the format:  
+`[problem_number]_[problemName].[file_extension]`  
+For example: `1_TwoSum.cs`
+
+## How to Use
+1. Navigate to the folder corresponding to the problem difficulty (easy, medium, or hard).
+2. Find the problem you're interested in by its number and name.
+3. Open the file to view the solution and explanation.
